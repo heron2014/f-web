@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Sitemap: http://www.myflashcards.app/sitemap.xml
