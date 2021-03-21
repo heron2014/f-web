@@ -219,6 +219,11 @@ section {
   max-width: 160px;
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 h1 {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 2.6em;
@@ -312,13 +317,13 @@ footer {
   .footer_container_right {
    text-align: center;
   }
+
   .img {
-    width: 70%;
     margin: 0 auto;
   }
 
   .img2 {
-    width: 55%;
+    width: 90%;
   }
 
   .face {
@@ -326,7 +331,7 @@ footer {
   }
 
   .faces_share {
-    width: 45%;
+    width: 75%;
   }
 
   .rating_container {
@@ -334,7 +339,8 @@ footer {
   }
 
   .rating_container h4 {
-    line-height: 10px;
+    /*line-height: 10px;*/
+    text-align: center;
   }
 
   .rating {
@@ -362,12 +368,16 @@ footer {
   }
 
   .badge-container a img {
-    max-width: 120px;
+    max-width: 130px;
   }
 
   .container_right {
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+
+  .hero-section {
+    margin-bottom: 0;
   }
 
   .header img, .header h4{
